@@ -12,7 +12,7 @@ const Header = () => {
           type='button'
           variant='primary'
           className='mt-2 p-3'
-          href='/UI'
+          href='/ui'
         >
           View App
         </Button>
