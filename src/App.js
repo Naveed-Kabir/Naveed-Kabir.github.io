@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import './App.css';
 import Menu from './components/Menu';
@@ -14,27 +14,40 @@ import Conclusion from './components/Screens/Conclusion';
 import Contributors from './components/Screens/Contributors';
 
 const App = () => {
+  const location = useLocation();
+
   return (
-    <Router>
+    <>
       <Menu />
       <main>
+        {/* Render Header only on the main page */}
+        {location.pathname === '/' && (
+          <Container>
+            <Header />
+          </Container>
+        )}
         <Container>
-          <Header />
+          <Routes>
+            <Route path="/" element={<Album />} />
+            {/* Other Screens */}
+            <Route path="/introduction" element={<Introduction />} />
+            <Route path="/ui" element={<UIScreen />} />
+            <Route path="/uml" element={<UMLScreen />} />
+            <Route path="/functionality" element={<Functionality />} />
+            <Route path="/conclusion" element={<Conclusion />} />
+            <Route path="/contributors" element={<Contributors />} />
+          </Routes>
         </Container>
-        <Routes>
-          <Route path="/" element={<Album />} />
-          {/* Other Screens */}
-          <Route path="/introduction" element={<Introduction />} />
-          <Route path="/ui" element={<UIScreen />} />
-          <Route path="/uml" element={<UMLScreen />} />
-          <Route path="/functionality" element={<Functionality />} />
-          <Route path="/conclusion" element={<Conclusion />} />
-          <Route path="/contributors" element={<Contributors />} />
-        </Routes>
       </main>
       <Footer />
-    </Router>
+    </>
   );
 };
 
-export default App;
+const RootApp = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default RootApp;
