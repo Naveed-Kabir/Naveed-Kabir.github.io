@@ -9,7 +9,7 @@ const Functionality = () => (
       </p>
       <div className="text-center">
         <a
-          href="./assets/videos/demo.mp4"
+          href="https://youtu.be/95rdSeEbMOc"
           className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"
