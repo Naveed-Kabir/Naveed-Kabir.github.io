@@ -1,7 +1,7 @@
 {
   "name": "wandersync-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Naveed-Kabir/Naveed-Kabir.github.io",
+  "homepage": "https://naveed-kabir.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
