@@ -1,0 +1,28 @@
+.uml-image-box {
+    width: 100%; 
+    height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd; 
+    background-color: #f9f9f9;
+    overflow: hidden; /* Ensures images don’t overflow the box */
+    position: relative; /* Make relative to add effects */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* transition for scale and shadow */
+  }
+  
+  .uml-image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image is scaled proportionally */
+    transition: transform 0.3s ease; /* Transition for scaling */
+  }
+  
+  .uml-image-box:hover {
+    transform: scale(1.05); /* Slightly scale up the box on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .uml-image-box img:hover {
+    transform: scale(1.05); /* Scale up the image slightly more when hovered */
+  }

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className='text-muted'>
       <Container>
         <p className='float-right'>
-          <a href='https://github.com/mollygracebutler/CS2340C_Team14'>Source Code</a>
+          <a href='https://github.com/Naveed-Kabir/Naveed-Kabir.github.io'>Source Code</a>
         </p>
         <p>
           

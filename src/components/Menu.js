@@ -12,7 +12,7 @@ const Menu = () => {
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/introduction">Introduction</Nav.Link>
             <Nav.Link as={Link} to="/ui">UI Design</Nav.Link>
-            <Nav.Link as={Link} to="/uml">UML Diagrams</Nav.Link>
+            <Nav.Link as={Link} to="/uml">Architecture</Nav.Link>
             <Nav.Link as={Link} to="/functionality">Functionality</Nav.Link>
             <Nav.Link as={Link} to="/conclusion">Conclusion</Nav.Link>
             <Nav.Link as={Link} to="/contributors">Contributors</Nav.Link>
