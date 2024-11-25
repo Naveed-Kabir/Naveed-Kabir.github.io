@@ -37,3 +37,25 @@ footer {
 footer p {
   margin-bottom: .25rem;
 }
+
+.album {
+  padding: 2rem 0;
+}
+
+.album .card {
+  transition: transform 0.3s ease;
+}
+
+/* transition when you hover */
+.album .card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}

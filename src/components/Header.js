@@ -4,17 +4,18 @@ const Header = () => {
   return (
     <section className='jumbotron text-center'>
       <Container>
-        <h1 className='text-capitalize'>WanderSync Group 14</h1>
-        <p className='lead text-muted text-capitalize'>
-          A travel app  
+        <h1>WanderSync App</h1>
+        <p className='lead text-muted'>
+          A travel app made by Group 14 for CS2340 @ GT
         </p>
         <Button
           type='button'
           variant='primary'
-          className='mt-5 p-3 text-capitalize'
+          className='mt-2 p-3'
+          href='/UI'
         >
-          View UI
-        </Button>{' '}
+          View App
+        </Button>
       </Container>
     </section>
   )
