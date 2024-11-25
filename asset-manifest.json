@@ -1,20 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.79ef10fe.css",
-    "main.js": "/static/js/main.0a984016.js",
+    "main.js": "/static/js/main.69c4d7df.js",
     "static/media/img1.png": "/static/media/img1.b239f527241052600df5.png",
+    "static/media/logistics.png": "/static/media/logistics.bed8ab490fc670fa7831.png",
+    "static/media/destinations.png": "/static/media/destinations.1440ef7f32f9d797eb7e.png",
     "static/media/login.png": "/static/media/login.9fd25c29fae06a02026a.png",
     "static/media/welcome.png": "/static/media/welcome.8818511d72da07115b25.png",
     "static/media/createAccount.png": "/static/media/createAccount.3c9b3977221da70e1947.png",
     "static/media/img2.png": "/static/media/img2.13f4d3806652fa9243ca.png",
     "static/media/img3.png": "/static/media/img3.d48c8c2713320f2b9c65.png",
+    "static/media/travel.png": "/static/media/travel.eb03c24e1ce7bbc45ee0.png",
+    "static/media/singleton.png": "/static/media/singleton.b7d66c79d7b96a992be8.png",
     "static/media/img4.png": "/static/media/img4.e0ad6fe2cb52b8acd6b0.png",
+    "static/media/dining.png": "/static/media/dining.bb814a490df35a995ba3.png",
+    "static/media/accommodations.png": "/static/media/accommodations.9888ef0d3d629972fdb6.png",
+    "static/media/strategy.png": "/static/media/strategy.2c85bf08333c0b2f8e96.png",
     "index.html": "/index.html",
     "main.79ef10fe.css.map": "/static/css/main.79ef10fe.css.map",
-    "main.0a984016.js.map": "/static/js/main.0a984016.js.map"
+    "main.69c4d7df.js.map": "/static/js/main.69c4d7df.js.map"
   },
   "entrypoints": [
     "static/css/main.79ef10fe.css",
-    "static/js/main.0a984016.js"
+    "static/js/main.69c4d7df.js"
   ]
 }
